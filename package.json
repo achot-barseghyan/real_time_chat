@@ -1,0 +1,22 @@
+{
+  "name": "real_time_app",
+  "version": "1.0.0",
+  "description": "real time chat with rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Achot Barseghyan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "moment": "^2.29.1",
+    "open": "^7.3.0",
+    "socket.io": "^3.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
